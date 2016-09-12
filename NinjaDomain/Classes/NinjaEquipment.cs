@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using NinjaDomain.Classes.Enums;
 
 namespace NinjaDomain.Classes
 {
@@ -9,5 +6,7 @@ namespace NinjaDomain.Classes
     {
         public int NinjaEquipmentId { get; set; }
         public string Name { get; set; }
+        public EquipmentType Type { get; set; }
+        public Ninja Ninja { get; set; }
     }
 }
